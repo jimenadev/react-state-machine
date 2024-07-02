@@ -20,6 +20,8 @@ export const Passengers = ({ state, send }) => {
   console.log("state: "+state)
   const { passengers } = state.context
 
+  console.log("passengers",passengers)
+
   return (
     <form onSubmit={submit} className='Passengers'>
       <p className='Passengers-title title'>Agrega a las personas que van a volar ✈️</p>
